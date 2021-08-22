@@ -1,3 +1,4 @@
+
 const CACHE_NAME = 'my-site-cache-v1';
 const DATA_CACHE_NAME = 'data-cache-v1';
 const FILES_TO_CACHE = [
@@ -11,6 +12,7 @@ const FILES_TO_CACHE = [
   "./icons/icon-512x512.png"
 ];
 
+// Install the service worker
 self.addEventListener('install', function (evt) {
   evt.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
@@ -22,6 +24,7 @@ self.addEventListener('install', function (evt) {
   self.skipWaiting();
 });
 
+// Activate the service worker and remove old data from the cache
 self.addEventListener('activate', function (evt) {
   evt.waitUntil(
     caches.keys().then(keyList => {
