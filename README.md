@@ -1,28 +1,43 @@
 
-# BudgetTracker
-## Deployed Link: [**BudgetTracker**](https://pure-ridge-36828.herokuapp.com/)
-
-
-**About BudgetTracker:** 
-> - Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-> - Add expenses and deposits to your budget tracker with or without a connection.
-
-**OFFLINE Functionality:**
-> - Enter deposits offline
-> - Enter expenses offline
-
-**ONLINE Functionality:**
-> - Offline entries should be added to tracker.
-
-**BudgetTracker Demo:**
-> - [**BudgetTracker: Adding and substracting demo**](https://streamable.com/s2q57e)
-> - [**BudgetTracker: Offline demo**](https://streamable.com/6zmvyg)
-
-> **BudgetTracker:**
-![Screenshot of BudgetTracker)](https://i.imgur.com/iKAuSlF.png)
 
 
 
 
 
+# **Budget Tracker**
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  ## Description
+
+Budget Tracker ia a application that allow for user to track there budget either online/offline.
+
+
+
+  ## Table of Contents
+  * [Description](#description)
+  * [License](#license)
+  * [Deployed Link](#deployed-link)
+  * [Questions](#questions)
+  * [Sample Image](#sample-image)
+
+
+  ## Deployed Link
+
+  [Heroku Link](http://safe-dawn-09889.herokuapp.com/)
+
+  ## License
+  [MIT License](https://opensource.org/licenses/MIT)
+
+
+
+  ## Questions
+  If you have any questions: eycs0317@gmail.com
+
+  [My GitHub](https://github.com/eycs0317)
+
+  ## Sample Image
+
+
+  ![Sample1](./sampleimage/01.png)
+  ![Sample1](./sampleimage/02.png)
